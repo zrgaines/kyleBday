@@ -7,12 +7,14 @@ body {
 h1 {
   text-align: center;
   font-weight: 700;
-  font-size: 7rem;
-  margin-top: 400px; }
+  font-size: 7rem; }
 
 hr {
   width: 80%;
   border-width: 20px;
   border-color: #373A3C; }
+
+.textBlock {
+  margin-top: 600px; }
 
 /*# sourceMappingURL=style.css.map */
