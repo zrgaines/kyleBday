@@ -1,0 +1,20 @@
+// Color variables
+$lunaPurp: #302C69;
+$solOrange: #F69220;
+$lightBlue: #449DD1;
+$skyBlue: #78C0E0;
+$lunaSilver: #FCFCFA;
+$solSilver: #FEDF9B;
+
+body {
+  font-family: 'Raleway', serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: $skyBlue;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
