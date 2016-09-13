@@ -1,9 +1,10 @@
 $(document).ready(function() {
   $('#tb1').addClass('zoomIn');
   
-  var waypoints = $('#tb2').waypoint({
-    handler: function(direction) {
-      alert(' hit')
+$(document).on('scroll', function() {
+  if($(this).scrollTop()>=$('#tb2').position().top){
+      $('#tb2').addClass('zoomIn');
+      $('#tb2').removeClass('disNone');
     }
   })
 })
